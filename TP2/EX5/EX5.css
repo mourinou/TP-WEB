@@ -1,0 +1,97 @@
+.content{
+    display: flex;
+    height:100ev;
+}
+img{
+    height: 600px;
+    /* width:auto; */
+    display: block;
+    flex:1;
+}
+.right{
+    background-color: white;
+    margin:0 150px;
+    flex:1;
+}
+.plate{
+    width: 100%;
+    /* text-align: center; */
+    margin-top:50px;
+    margin-left:7px;
+}
+.eservice{
+    color:#3a3b45;
+    padding-left: 20px;
+}
+.input {
+    padding:7px 7px 7px 0;
+    width:100%;
+}
+.email,.pass,.submit,.radio{
+    margin:7px 7px 7px 0px;
+}
+.email{
+    margin-top:3px;
+}
+input{
+    height: 30px;
+    border-radius: 50px ;
+    border:2px solid #6e707e; 
+    width:100%;
+}
+input.radio{
+    padding-top:15px;
+}
+.radio label{
+    display: inline-block;
+    vertical-align: middle;
+}
+input.conn{
+    background-color: #4e73df;
+    height: 40px;
+    color:white;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+#ch{
+    width:auto;
+}
+.radio{
+    display:flex;
+}
+.mdp{
+    margin-top: 0px;
+    font-size: 20px;
+    color:red;
+}
+.pa{
+    margin-left:7px;
+    padding-top: 7px;
+    color:#858796;
+}
+p.pp{
+    text-align: center;
+    color:#4e73df;
+}
+footer p{
+    margin-top: 70px;
+    text-align: center;
+    color: #858796;
+}
+@media screen and (max-width:800px) {
+    .img{
+        display:none;
+    }
+    .right{
+        margin:7px;
+    }
+    .content{
+        overflow-x: hidden;
+    }
+    *{
+        margin-left: 4px;
+        padding-top: 4px; 
+        width:95%;
+
+    }
+}
