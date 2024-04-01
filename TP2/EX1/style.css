@@ -1,0 +1,118 @@
+.content{
+    /* display: block; */
+   display: flex;
+   flex-wrap: nowrap;
+   /* flex-direction: column; */
+   justify-content: flex-start;
+   height:100vh;
+
+
+}
+.left1{
+    margin-top: 100px;
+}
+header{
+    position:absolute;
+    height: 50px;
+    /* overflow: hidden; */
+    top: 20px;
+    left:0;
+    width:100%;
+    background-color: yellow;
+    padding:4%;
+    box-sizing: border-box;
+    margin: 7px;
+
+    /* text-align: center; */
+}
+header h1,h3{
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+    /* left:50px; */
+}
+nav{
+    flex: 0 0 30%;
+    padding-top: 70px;
+    float:left;
+    background-color: #8ab5d6;
+    color:white;
+    /* height: 100vh; */
+    width: 30%;
+    /* overflow: scroll; */
+    padding:4%;
+}
+aside{
+    font-size: 25px;
+    width: 70%;
+    flex:1;
+    padding-left: 50px;
+    padding-top: 90px;
+    background-color: rgb(0,244,255);
+    /* height:100vh; */
+    /* width:70% */
+    /* overflow: scroll; */
+}
+i{
+    padding-right: 20px;
+}
+a{
+    color: white;
+}
+li+p {
+    margin-top: 7px;
+}
+hr{
+    margin:25px 0px 25px 0;
+
+}
+aside div{
+    padding-left: 5px;
+}
+/* aside hr{
+     display :inline-block; 
+    border-color: red;
+    border:solid red;*/
+div.dd{
+    /* display: flex; */
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.img{
+    position:fixed;
+    bottom: 780px;
+    left:1500px;
+
+    height:70px;
+    /* overflow: hidden; */
+}
+img{
+    height:140px;
+    border-radius:50% ;
+    border:10px solid white;
+ 
+}
+aside span{
+    padding-left: 110px;
+}
+aside .badd{
+    padding-left: 520px;
+}
+.education{
+        display:flex; /* Utilisation de Flexbox pour aligner les éléments horizontalement */
+         /* Aligner les éléments verticalement */
+    }
+    
+    .ligne,.ligne1 {
+        /* flex: 1;  */
+        border: none; 
+        border-top: 1px solid black; 
+    }    
+    .dd{
+        display: flex;
+    }
+    .objectif{
+        margin-top:55px;
+    }
+    
