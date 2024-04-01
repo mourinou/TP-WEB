@@ -1,0 +1,67 @@
+
+.conteneur{
+    display:flex;
+    background-color: #8ab5d6;
+    justify-self: center;
+}
+.univer1{
+    margin-top: 30px;
+    margin-left: 57px;
+}
+.univer{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+
+}
+.univer1 .univer,.es{
+    color: white;
+}
+.Ecole{
+    font-size: 15px;
+}
+.app{
+    font-size: 20px;
+}
+img{
+    height:140px;
+}
+.imag{
+    align-self: center;
+    margin-left: 300px;
+    margin-top: 15px;
+}
+.right{
+    flex-grow: 1;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.contneur2{
+    display: flex;
+    background-color: #004884;
+    justify-content: flex-start;
+}
+.contneur2 div{
+    padding:20px;
+    border:1px ridge #00569d;
+    color:#8ab5d6;
+
+
+}
+#Acc{
+    color:yellow;
+}
+#k1{
+    border:0px;
+    background-color: #8ab5d6;
+}
+input{
+    background-color: #004074;
+}
+#icons{
+    flex-grow: 1;
+}
+i{
+    position: relative;
+    left:300px;
+    padding: 0 10px 0 10px;
+}
